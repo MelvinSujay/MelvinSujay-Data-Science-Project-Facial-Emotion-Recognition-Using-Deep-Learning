@@ -1,31 +1,50 @@
-# MelvinSujay-Data-Science-Project-Facial-Emotion-Recognition-Using-Deep-Learning
+Data-Science-Project---Facial-Emotion-Recognition-Using-Deep-Learning
 Facial emotion recognition is an advanced field within computer vision and artificial intelligence, where the goal is to identify human emotions based on facial expressions. This project uses deep learning techniques, particularly Convolutional Neural Networks (CNNs), to classify emotions such as happiness, sadness, anger, surprise, and others from facial images. By analyzing various facial features, such as the eyes, mouth, and overall facial expressions, the system can predict the emotional state of individuals.
 
 Emotions Detected
+
 Angry
+
 Disgust
+
 Fear
+
 Happy
+
 Neutral
+
 Sad
+
 Surprise
 
 Features
+
 CNN-based model trained on grayscale 48x48 images.
+
 Real-time emotion recognition using webcam.
+
 Static image emotion analysis.
+
 Evaluation through accuracy/loss plots and confusion matrix.
+
 Clean modular codebase with separate files for training, testing, and evaluation.
 
 Technologies Used
+
 Python
+
 TensorFlow / Keras
+
 OpenCV
+
 NumPy, Pandas
+
 Matplotlib, Seaborn
+
 Haar Cascade Classifier for face detection
 
 Project Structure Facial-Emotion-Recognition/ │
+
 Data Preprocessing – Enhances training data using augmentation, normalization, and grayscale conversion.
 CNN Model Training – Uses a Convolutional Neural Network (CNN) to train a model and to classify emotions into seven categories.
 Model Evaluation – Measures performance using accuracy, loss, confusion matrix, and classification report.
